@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:mysql://47.97.222.56:3306/demo
+    username: root
+    password: 1Qaz2wsx
+    driverClassName: com.mysql.jdbc.Driver
+
+  liquibase:
+    enabled: true
+    change-log: classpath:liquibase/change-logs/master.xml
+
+#    change-log: classpath:liquibase/change-logs/master.xml
+#    enabled: true
+#    user: root
+#    password: 1Qaz2wsx
+#    drop-first: false
+#    url: jdbc:mysql://47.97.222.56:3306/demo
+
